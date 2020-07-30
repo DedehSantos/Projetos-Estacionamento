@@ -1,0 +1,10 @@
+{
+    "timeline.excludeSources": [],
+    "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderWidth : 1px"
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ]
+}

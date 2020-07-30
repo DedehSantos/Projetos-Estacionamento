@@ -1,0 +1,79 @@
+<html lang="pt-br">
+    <head>
+        <title>Estacionamento JS</title>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Dedeh Santos">
+	    <meta name="description" content="Meta Tags - O que são e como utilizá-las">
+	    <meta name="keywords" content="sites, web, desenvolvimento">
+        <meta name="robots" content="index,follow">
+        <meta name="robots" content="noindex,follow">
+        <meta name="robots" content="index,nofollow">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="generator" content="Visual Studio Code">
+        <meta name="robots" content="noarchive">
+        <link href="_css/style.css" rel="stylesheet">
+        <link href="_css/bootstrap.min.css" rel="stylesheet">
+        <link href="_css/style.css" rel="stylesheet">
+        <link href="_css/style.css" rel="stylesheet">
+    </head>
+    <body  onload="mostraPatio()">
+        <!-- Inicio do Codigo -->
+<div class="container">
+     <form id="formulario">
+       <div id="aviso"></div>
+         <div class="header clearfix">
+         <h2>Estacionamento JS <small>por: Dedeh Santos</small> </h2>
+     <div class="Jumbotron">
+         <div class="form-group">
+         <label for="">Modelo de Veículo:</label>
+         <input type="text" name="" class="form-control"
+         name="" id ="modeloCarro" placeholder="
+         Digite o Modelo do Veiculo">
+       </div>
+       <div class="form-group">
+        <label for="">Placa do Veículo:</label>
+        <input type="text" name="" class="form-control"
+        name="" id ="placaCarro" placeholder="
+        Digite a placa do Veículo">
+      </div>
+      <button type="submit" class="btn btn-primary">Adicionar</button>
+    </form>
+    </div>
+       </div>
+        <div class="row marketing">
+            <div class="col-lg-12">
+                <table class=" table table-hover">
+                   <thead>
+                       <tr>
+                           <th>modelo</th>
+                           <th>Placa</th>
+                           <th>Entrada</th>
+                           <th>Finalizar</th>
+                       </tr>
+                   </thead>
+                   <tbody id="resultados"></tbody>
+
+                </table>
+            </div>
+        </div>
+   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Fim do Codigo-->
+        <script src="_js/jquery.js"></script>
+        <script src="_js/bootstrap.min.js"></script>
+        <script src="_js/script.js"></script>
+    </body>
+</html>
